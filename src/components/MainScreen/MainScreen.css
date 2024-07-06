@@ -1,0 +1,21 @@
+.main-grid{
+    display: grid;
+    grid-template-columns: 0.9fr 3.1fr;
+    grid-template-rows: 100vh;
+    transition:1s;
+}
+.side-bar{
+    grid-area: 1/1/2/2;
+    margin: 10px;
+    border-radius: 10px;
+}
+.main-container{
+    grid-area: 1/2/2/3;
+    margin: 10px;
+}
+.without-sidebar{
+    display: grid;
+    grid-template-columns: 0.1fr 3.9fr;
+    grid-template-rows: 100vh;
+    transition:2s;
+}
